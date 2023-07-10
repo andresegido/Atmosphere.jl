@@ -1,7 +1,10 @@
 name = "Atmosphere"
 uuid = "6bad4d00-7c4f-4689-8ad1-81d3c0b2abd8"
 authors = ["Andrés Egido Fernández"]
-version = "1.0.0-DEV"
+version = "0.1.0"
+
+[deps]
+IdealGas = "30fbeecf-ffb7-46dc-b478-c8da4eefd92c"
 
 [compat]
 julia = "1"
