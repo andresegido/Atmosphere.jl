@@ -27,6 +27,10 @@ jobs:
           - x64
     steps:
       - uses: actions/checkout@v3
+      - uses: julia-actions/add-julia-registry@v1
+        with:
+          key: ${{ secrets.SSH_KEY }}
+          registry: https://github.com/andresegido/MyRegistry
       - uses: julia-actions/setup-julia@v1
         with:
           version: ${{ matrix.version }}
