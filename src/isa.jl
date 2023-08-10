@@ -1,4 +1,3 @@
-import IdealGas as gas
 # Atmosphere constants
 const g = 9.80665
 const P0 = 101325
