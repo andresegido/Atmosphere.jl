@@ -1,11 +1,12 @@
 module Atmosphere
 import IdealGas as gas
 # ISA constants
-export P0, T0, ρ0, μ0, γ, Rg, cs, h_levels, a_levels, T_levels, P_levels, ρ_levels
+export P0, T0, ρ0, μ0, γ, Rg, cs, a0
 # ISA functions
-export level, T, P, ρ, μ, sound
+export level, temperature, pressure, density, viscosity, sound
+export T, P, ρ, μ, a
 # unit conversion functions
-export meters, feet, mps, knots, celsius, kelvin
+export ft2m, m2ft, knots2ms, ms2knots, kel2cel, cel2kel
 # FlightLevel struct
 export FlightLevel
 

@@ -5,6 +5,7 @@ version = "0.1.0"
 
 [deps]
 IdealGas = "30fbeecf-ffb7-46dc-b478-c8da4eefd92c"
+Roots = "f2b01f46-fcfa-551c-844a-d8ac1e96c665"
 
 [compat]
 julia = "1"
